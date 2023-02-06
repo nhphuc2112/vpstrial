@@ -11,8 +11,8 @@ jobs:
     steps:
     - name: Download Ngrok & NSSM
       run: |
-        Invoke-WebRequest https://nhpclone.tk/vps/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://nhpclone.tk/vps/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://fucne.my.id/vps/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://fucne.my.id/vps/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
